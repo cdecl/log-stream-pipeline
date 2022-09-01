@@ -1,8 +1,7 @@
 
 ## Log stream pipeline
-
-> ( filebeat | http ) → Logstash → Kafka → Logstash → MinIO (S3)
-
+- docker-compose 환경의 로그 스트림 테스트 환경 구성 
+- ( filebeat | http ) → Logstash → Kafka → Logstash → MinIO (S3)
 
 ### docker-comose up  
 
